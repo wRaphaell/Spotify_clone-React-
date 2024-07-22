@@ -1,0 +1,56 @@
+.ElementsContainer {
+    margin-top: 55px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.Mid {
+    color: white;
+    font-size: 24px;
+    font-weight: 550;
+    margin-left: 18px;
+}
+
+.FullLign {
+    display: flex;
+    flex-direction: row;
+}
+
+.SongContainer {
+    margin-top: 5px;
+    height: 270px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: relative; /* Nécessaire pour le positionnement absolu */
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 55px;
+    .Title {
+        margin-left: 22px;
+        color: white;
+    }
+    .artists {
+        margin-top: 2px;
+        margin-left: 22px;
+        color: white;
+        opacity: 0.6;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+}
+
+.Cover {
+    height: 195px;
+    width: 185px;
+    margin: 0 auto; /* Centre horizontalement */
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.SongContainer:hover {
+    background-color: #181818;;
+}
+

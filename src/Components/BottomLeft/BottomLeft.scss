@@ -1,0 +1,127 @@
+.LeftPart:hover .Lib,
+.LeftPart:hover .stack {
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Assurez-vous que la transition est également définie ici si nécessaire */
+}
+
+.stack {
+    height: 25px;
+    width: 25px;
+    margin-right: 16px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.Lib {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.LeftPart {
+    display: flex;
+    align-items: center;
+}
+
+.BlContainer {
+    height: 1240px;
+    width: 425px;
+    background-color: #121212;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.arrow {
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.plus {
+    height: 16px;
+    width: 16px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    margin-right: 28px;
+}
+
+.Create {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CreatePlayList {
+    height: 135px;
+    width: 410px;
+    background-color: #262626;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstspan {
+    font-weight: 600;
+    padding-left: 15px;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.secondspan {
+    font-size: 13px;
+    font-weight: 550;
+    opacity: 0.90;
+    padding-left: 15px;
+    padding-bottom: 22px;
+}
+
+.BlButton {
+    height: 32px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: white;
+    outline: 0;
+    border: 0;
+    font-weight: 600;
+    color: #121212;
+    margin-left: 17px;
+    cursor: pointer;
+    transition: transform 0.1s ease, font-size 0.1s ease;
+    font-size: 12px;
+}
+
+.BlButton:hover {
+    transform: scale(1.05);
+    font-size: 13px;
+}
+
+.Podcasts {
+    height: 135px;
+    width: 410px;
+    background-color: #262626;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plus:hover,
+.arrow:hover {
+    opacity: 1;
+}

@@ -1,0 +1,45 @@
+.TopLeftHome:hover .HomeImg,
+.TopLeftHome:hover .HomeSpan {
+    opacity: 1;
+}
+
+.TopLeftSearch:hover .SearchImg,
+.TopLeftSearch:hover .SearchSpan {
+    opacity: 1;
+}
+
+.TopLeftContainer {
+    margin-top: 40px;
+    height: 115px;
+    width: 425px;
+    background-color: #121212;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.HomeImg, .SearchImg {
+    height: 25px;
+    width: 25px;
+    margin-right: 18px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+}
+
+.TopLeftHome, .TopLeftSearch {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.HomeSpan, .SearchSpan {
+    padding-top: 10px;
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+}
