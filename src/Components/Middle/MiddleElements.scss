@@ -45,8 +45,17 @@
 .Cover {
     height: 195px;
     width: 185px;
-    margin: 0 auto; /* Centre horizontalement */
+    margin: 0 auto;
     border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.CoverArtist
+{
+    height: 195px;
+    width: 185px;
+    margin: 0 auto;
+    border-radius: 50%;
     margin-bottom: 12px;
 }
 
