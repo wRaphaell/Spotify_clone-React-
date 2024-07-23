@@ -17,7 +17,6 @@
             height: 58px;
             width: 58px;
             border-radius: 5px;
-            // object-fit: contain;
         }
     }
     .LBDesc {
@@ -30,11 +29,20 @@
             font-size: 15px;
             margin-bottom: 3px;
             margin-top: 10px;
+            cursor: pointer;
+        }
+        .LBTitle:hover {
+            text-decoration: underline;
         }
         .LBName {
             font-weight: 400;
             font-size: 11px;
             opacity: 0.6;
+            cursor: pointer;
+        }
+        .LBName:hover {
+            opacity: 0.9;
+            text-decoration: underline;
         }
     }
 }
@@ -45,17 +53,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    .TopMBPart {
-        display: flex;
-        margin-bottom: 15px;
-        margin-top: 20px;
-        .TopMBPartBtn {
-            opacity: 0.7;
-        }
-        .TopMBPartBtnWeak {
-            opacity: 0.5;
-        }
-    }
     .BottomMBPart {
         display: flex;
         align-items: center;
@@ -70,6 +67,19 @@
     }
 }
 
+.TopMBPart {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    .TopMBPartBtn {
+        opacity: 0.6;
+    }
+    .TopMBPartBtnWeak {
+        opacity: 0.55;
+        transform: scale(0.9);
+    }
+}
+
 .RBottomPart {
     display: flex;
     justify-content: flex-end;
@@ -81,12 +91,14 @@
         width: 17px;
         opacity: 0.7;
         margin-right: 14px;
+        cursor: pointer;
     }
     .RBottomImgSound {
         height: 17px;
         width: 17px;
         opacity: 0.7;
         margin-right: 7px;
+        cursor: pointer;
     }
     .SoundBar {
         height: 3px;
@@ -98,15 +110,18 @@
 }
 
 .TopMBPartBtn, .TopMBPartBtnWeak {
-    height: 18px;
-    width: 18px;
-    margin-right: 20px;
+    height: 16px;
+    width: 16px;
+    margin-right: 23px;
+    cursor: pointer;
 }
 
 .WeirdBtn {
-    height: 18px;
-    width: 18px;
-    margin-right: 20px;
+    height: 16px;
+    width: 16px;
+    margin-right: 23px;
+    cursor: pointer;
+    transform: scale(1.3);
 }
 
 .FirstDigit, .SecondDigit {
@@ -115,4 +130,16 @@
     font-weight: 400;
     font-size: 12px;
     margin-top: 6px;
+}
+
+.RBottomImg:hover, .RBottomImgSound:hover, .TopMBPartBtn:hover {
+    opacity: 1;
+}
+
+.TopMBPartBtnWeak:hover {
+    opacity: 0.8;
+}
+
+.WeirdBtn:hover {
+    transform: scale(1.4);
 }
