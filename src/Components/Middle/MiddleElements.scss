@@ -17,7 +17,7 @@
 }
 
 .SongContainer {
-    margin-top: 5px;
+    margin-top: 2px;
     height: 270px;
     width: 220px;
     display: flex;
@@ -61,5 +61,24 @@
 
 .SongContainer:hover {
     background-color: #181818;;
+}
+
+.topSongContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+
+.MidRightSpan {
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.MidRightSpan:hover {
+    opacity: 0.62;
+    text-decoration:underline;
 }
 

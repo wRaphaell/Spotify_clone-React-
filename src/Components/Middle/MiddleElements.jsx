@@ -10,7 +10,9 @@ export default function MiddleElements() {
   return (
     <div className="ElementsContainer">
       <div className="MadeFor">
-        <span className="Mid">Made For raph</span>
+        <div className="topSongContainer">
+          <span className="Mid">Made For raph</span>
+        </div>
         <div className="FullLign">
           <div className="SongContainer">
             <img src={firstCover} alt="Img" className="Cover"/>
@@ -21,7 +23,10 @@ export default function MiddleElements() {
       </div>
 
       <div className="PopularRadio">
-            <span className="Mid">Popular radio</span>
+            <div className="topSongContainer">
+              <span className="Mid">Popular radio</span>
+              <span className="MidRightSpan">Show all</span>
+            </div>
             <div className="FullLign">
                 {PopRadiojs.map((radio) => (
                     <div className="SongContainer" key={radio.id}>
@@ -34,7 +39,10 @@ export default function MiddleElements() {
         </div>
       
       <div className="RecentlyPlayed">
-        <span className="Mid">Recently played</span>
+        <div className="topSongContainer">
+          <span className="Mid">Recently played</span>
+          {/* <span className="MidRightSpan">Show all</span> */}
+        </div>
         <div className="FullLign">
           <div className="SongContainer">
             <img src={firstCover} alt="Img" className="Cover"/>
@@ -45,7 +53,10 @@ export default function MiddleElements() {
       </div>
 
       <div className="PopularArtists">
-        <span className="Mid">Popular artists</span>
+        <div className="topSongContainer">
+          <span className="Mid">Popular artists</span>
+          <span className="MidRightSpan">Show all</span>
+        </div>
         <div className="FullLign">
           {Artistsjs.map((artistss) => (
             <div className="SongContainer" key={artistss.id}>
@@ -58,7 +69,10 @@ export default function MiddleElements() {
       </div>
     
       <div className="PopularAlbums">
-        <span className="Mid">Popular albums</span>
+        <div className="topSongContainer">
+          <span className="Mid">Popular albums</span>
+          <span className="MidRightSpan">Show all</span>
+        </div>
         <div className="FullLign">
           {PopularAlbumsjs.map((popalb) => (
           <div className="SongContainer" key={popalb.id}>
@@ -71,7 +85,10 @@ export default function MiddleElements() {
       </div>
 
       <div className="NotMiss">
-        <span className="Mid">A ne pas manquer</span>
+        <div className="topSongContainer">
+          <span className="Mid">A ne pas manquer</span>
+          <span className="MidRightSpan">Show all</span>
+        </div>
         <div className="FullLign">
           {PasManquer.map((missjs) => (
           <div className="SongContainer" key={missjs.id}>

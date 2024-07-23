@@ -1,0 +1,118 @@
+.BottomContainer {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LBottomPart {
+    flex: 1;
+    display: flex;
+    .ImgLB {
+        img {
+            margin-top: 15px;
+            margin-left: 5px;
+            margin-right: 15px;
+            height: 58px;
+            width: 58px;
+            border-radius: 5px;
+            // object-fit: contain;
+        }
+    }
+    .LBDesc {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: center;
+        .LBTitle {
+            font-weight: 450;
+            font-size: 15px;
+            margin-bottom: 3px;
+            margin-top: 10px;
+        }
+        .LBName {
+            font-weight: 400;
+            font-size: 11px;
+            opacity: 0.6;
+        }
+    }
+}
+
+.MBottomPart {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .TopMBPart {
+        display: flex;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        .TopMBPartBtn {
+            opacity: 0.7;
+        }
+        .TopMBPartBtnWeak {
+            opacity: 0.5;
+        }
+    }
+    .BottomMBPart {
+        display: flex;
+        align-items: center;
+        .TimeBar {
+            background-color: white;
+            height: 3px;
+            width: 630px;
+            border-radius: 6px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+}
+
+.RBottomPart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    margin-top: 6px;
+    .RBottomImg {
+        height: 17px;
+        width: 17px;
+        opacity: 0.7;
+        margin-right: 14px;
+    }
+    .RBottomImgSound {
+        height: 17px;
+        width: 17px;
+        opacity: 0.7;
+        margin-right: 7px;
+    }
+    .SoundBar {
+        height: 3px;
+        background-color: white;
+        width: 100px;
+        margin-right: 14px;
+        margin-top: 2px;
+    }
+}
+
+.TopMBPartBtn, .TopMBPartBtnWeak {
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+}
+
+.WeirdBtn {
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+}
+
+.FirstDigit, .SecondDigit {
+    color: white;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 6px;
+}
